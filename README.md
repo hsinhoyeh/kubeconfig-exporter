@@ -1,5 +1,5 @@
-# kubeconfig-exporter
-A simple script to convert/export CA/KEY/CERT from .kube/config
+# pykubeconfig
+A simple python script to convert/export CA/KEY/CERT from .kube/config
 
 
 ### convert files paths into base64 encoded data
