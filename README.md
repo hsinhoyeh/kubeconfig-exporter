@@ -5,6 +5,11 @@ A simple script to convert/export CA/KEY/CERT from .kube/config
 ### convert files paths into base64 encoded data
 ```
 python kubeconfig.py --to-data -f ~/.kube/config
+
+or run docker container
+
+docker run -v $(pwd)/test:/test pyconfig:latest -f /test/kubeconfig.yaml --to-data # for running testcases
+
 ```
 
 from:
